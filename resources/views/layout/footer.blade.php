@@ -23,24 +23,24 @@
 
                 <li class="m-0">
                     <p>Features</p>
-                    <a href="#">How It Works</a>
-                    <a href="#">For Teams</a>
-                    <a href="#">Pricing</a>
+                    <a href="{{ route('how-it-works') }}">How It Works</a>
+                    <a href="{{ route('for-teams') }}">For Teams</a>
+                    <a href="{{ route('pricing') }}">Pricing</a>
                 </li>
 
                 <li>
                     <p>Resources</p>
-                    <a href="#">Integrations</a>
-                    <a href="#">Templates</a>
-                    <a href="#">Getting Started</a>
-                    <a href="#">Help Center</a>
+                    <a href="{{ route('integrations') }}">Integrations</a>
+                    <a href="{{ route('templates') }}">Templates</a>
+                    <a href="{{ route('getting-started') }}">Getting Started</a>
+                    <a href="{{ route('help-center') }}">Help Center</a>
                 </li>
 
                 <li>
                     <p>Company</p>
-                    <a href="#">About Us</a>
-                    <a href="#">Careers</a>
-                    <a href="#">Contact Us</a>
+                    <a href="{{ route('about-us') }}">About Us</a>
+                    <a href="{{ route('career') }}">Careers</a>
+                    <a href="{{ route('contact-us') }}">Contact Us</a>
                 </li>
 
                 <li>
@@ -67,7 +67,7 @@
             <ul>
 
                 <li>
-                    <a href="#" class="me-2">
+                    <a href="{{ route('security') }}" target="_blank" class="me-2">
                         Security
                     </a>
                 </li>
@@ -75,7 +75,7 @@
                 <li>|</li>
 
                 <li>
-                    <a href="#" class="ms-2 me-2">
+                    <a href="{{ route('privacy') }}" target="_blank" class="ms-2 me-2">
                         Privacy
                     </a>
                 </li>
@@ -83,7 +83,7 @@
                 <li>|</li>
 
                 <li>
-                    <a href="#" class="ms-2 me-4">
+                    <a href="{{ route('terms') }}" target="_blank" class="ms-2 me-4">
                         Terms
                     </a>
                 </li>

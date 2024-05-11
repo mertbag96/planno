@@ -2,6 +2,6 @@
 
 @section('content')
 
-    <h4>Index Page</h4>
+    <h4>Security Policy Page</h4>
 
 @endsection
