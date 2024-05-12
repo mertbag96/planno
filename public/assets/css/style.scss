@@ -281,7 +281,7 @@ footer {
     }
 }
 
-/* Homepage */
+/* Home Page */
 .banner {
     background: url("../images/banner.png") bottom center no-repeat;
     padding-top: 6rem;
@@ -344,6 +344,117 @@ footer {
         }
         img {
             height: 56px;
+        }
+    }
+}
+
+/* Pricing Page */
+.pricing {
+    padding: 3rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        margin-bottom: 1rem;
+        width: 25%;
+        font-weight: 600;
+        font-size: 2rem;
+        color: $primary;
+        text-align: center;
+    }
+    p {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+        color: $dark;
+        text-align: center;
+    }
+    .package-switcher {
+        border: 1px solid $gray;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        padding: .25rem;
+        button {
+            background-color: $light;
+            border: 1px solid $light;
+            border-radius: 2rem;
+            padding: .5rem .75rem;
+            font-size: 14px;
+            color: $dark;
+        }
+        .active {
+            background-color: $primary;
+            border-color: $primary;
+            color: $light;
+        }
+    }
+    .pricing-content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .package {
+            background-color: $light;
+            border: 2px solid $gray;
+            border-radius: .75rem;
+            padding: 2rem;
+            width: 28%;
+            display: flex;
+            flex-direction: column;
+            .title {
+                margin-bottom: 1rem;
+                font-weight: 600;
+                font-size: 1.5rem;
+                color: $primary;
+            }
+            .description {
+                margin: 0;
+                font-size: 1rem;
+                text-align: left;
+            }
+            .price {
+                margin: 1rem 0;
+                font-weight: 700;
+                font-size: 2.5rem;
+                color: $primary;
+                .per {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: $dark;
+                }
+            }
+            a {
+                background-color: $primary;
+                border-radius: .5rem;
+                padding: .5rem 1rem;
+                font-weight: 600;
+                color: $light;
+                text-align: center;
+                &:hover {
+                    background-color: $secondary;
+                }
+            }
+            ul {
+                margin-top: 1rem;
+                padding: 0;
+                li {
+                    margin-bottom: .5rem;
+                    display: flex;
+                    align-items: center;
+                    .category {
+                        font-weight: 600;
+                        color: $primary;
+                    }
+                    p {
+                        margin: 0 0 0 .5rem;
+                        font-size: 14px;
+                        color: $dark;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .popular {
+            border-color: $primary;
         }
     }
 }
