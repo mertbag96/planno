@@ -12,8 +12,10 @@ $font : "Exo";
 /* Colors */
 $primary: #5d0cb0;
 $secondary: #7214d2;
+$tertiary: #00b3be;
 $input: #dadada;
 $placeholder: #b2b2b2;
+$darkgray: #ababab;
 $gray: #eeeeee;
 $light: #ffffff;
 $dark: #1e1e1e;
@@ -485,6 +487,227 @@ footer {
         hr {
             border-top: 1px solid $dark;
             width: 100%;
+        }
+    }
+}
+
+/* Careers Page */
+.careers {
+    .careers-content {
+        .careers-banner {
+            background-color: $primary;
+            padding: 2rem 0;
+            .careers-banner-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                div {
+                    &:last-child {
+                        display: flex;
+                        justify-content: end;
+                    }
+                    width: 48%;
+                    color: $light;
+                    h6 {
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+                    h1 {
+                        font-weight: 700;
+                    }
+                    p {
+                        width: 80%;
+                    }
+                    a {
+                        background-color: $light;
+                        border-radius: .5rem;
+                        padding: .5rem 1rem;
+                        font-weight: 600;
+                        color: $primary;
+                        &:hover {
+                            background-color: $gray;
+                        }
+                    }
+                    img {
+                        width: 360px;
+                        height: 360px;
+                    }
+                }
+            }
+        }
+        .careers-advantages {
+            padding: 2rem 2rem 0 2rem $i;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h3 {
+                width: 45%;
+                font-weight: 600;
+                color: $primary;
+                text-align: center;
+            }
+            .career-advantages {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .career-advantage {
+                    margin-bottom: 2rem;
+                    width: 30%;
+                    display: flex;
+                    color: $dark;
+                    h6 {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        .careers-process {
+            padding: 4rem 0 $i;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h3 {
+                width: 100%;
+                font-weight: 600;
+                color: $primary;
+                text-align: center;
+            }
+            .process-steps {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                .process-step {
+                    width: 22%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    &:before {
+                        background-color: $primary;
+                        position: absolute;
+                        top: 22px;
+                        left: 8rem;
+                        width: 80%;
+                        height: 5px;
+                        content: "";
+                        z-index: -1;
+                    }
+                    .step {
+                        background-color: $primary;
+                        border: 2px solid $primary;
+                        border-radius: .5rem;
+                        padding: 1.25rem 1rem 1rem 1rem;
+                        margin-bottom: 1rem;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        span {
+                            font-size: 1.25rem;
+                            font-weight: 600;
+                            color: $light;
+                        }
+                    }
+                    .process-title {
+                        margin-bottom: .5rem;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        color: $primary;
+                        text-align: center;
+                    }
+                    .process-detail {
+                        margin: 0;
+                        color: $dark;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .careers-opportunities {
+            padding: 0 0 4rem 0 $i;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h3 {
+                font-weight: 600;
+                color: $primary;
+            }
+            .careers-header {
+                border-bottom: 2px solid $gray;
+                padding-bottom: 2rem;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                p {
+                    margin: 0;
+                    font-size: 1.25rem;
+                }
+                select {
+                    border: 2px solid $darkgray;
+                    outline: 0;
+                    width: 200px;
+                    &:focus {
+                        outline: 0;
+                        border-color: $darkgray;
+                        -webkit-box-shadow: none $i;
+                        -moz-box-shadow: none $i;
+                        -o-box-shadow: none $i;
+                        box-shadow: none $i;
+                    }
+                }
+            }
+            .career-opportunities {
+                width: 100%;
+                .opportunity {
+                    border-bottom: 1px solid $gray;
+                    padding: 1rem 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    transition: .4s;
+                    .opportunity-details {
+                        .opportunity-title {
+                            font-weight: 600;
+                            font-size: 2rem;
+                            color: $dark;
+                        }
+                        .opportunity-tags {
+                            display: flex;
+                            span {
+                                margin-right: .5rem;
+                                color: $dark;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                    .opportunity-apply {
+                        font-weight: 600;
+                        color: $dark;
+                    }
+                    &:hover {
+                        .opportunity-details {
+                            .opportunity-title {
+                                color: $primary;
+                            }
+                        }
+                        .opportunity-apply {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
         }
     }
 }

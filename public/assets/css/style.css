@@ -473,6 +473,217 @@ footer .footer-container .footer-other .language-select:focus {
   width: 100%;
 }
 
+/* Careers Page */
+.careers .careers-content .careers-banner {
+  background-color: #5d0cb0;
+  padding: 2rem 0;
+}
+.careers .careers-content .careers-banner .careers-banner-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers .careers-content .careers-banner .careers-banner-content div {
+  width: 48%;
+  color: #ffffff;
+}
+.careers .careers-content .careers-banner .careers-banner-content div:last-child {
+  display: flex;
+  justify-content: end;
+}
+.careers .careers-content .careers-banner .careers-banner-content div h6 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.careers .careers-content .careers-banner .careers-banner-content div h1 {
+  font-weight: 700;
+}
+.careers .careers-content .careers-banner .careers-banner-content div p {
+  width: 80%;
+}
+.careers .careers-content .careers-banner .careers-banner-content div a {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: #5d0cb0;
+}
+.careers .careers-content .careers-banner .careers-banner-content div a:hover {
+  background-color: #eeeeee;
+}
+.careers .careers-content .careers-banner .careers-banner-content div img {
+  width: 360px;
+  height: 360px;
+}
+.careers .careers-content .careers-advantages {
+  padding: 2rem 2rem 0 2rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.careers .careers-content .careers-advantages h3 {
+  width: 45%;
+  font-weight: 600;
+  color: #5d0cb0;
+  text-align: center;
+}
+.careers .careers-content .careers-advantages .career-advantages {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.careers .careers-content .careers-advantages .career-advantages .career-advantage {
+  margin-bottom: 2rem;
+  width: 30%;
+  display: flex;
+  color: #1e1e1e;
+}
+.careers .careers-content .careers-advantages .career-advantages .career-advantage h6 {
+  font-weight: 600;
+}
+.careers .careers-content .careers-process {
+  padding: 4rem 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.careers .careers-content .careers-process h3 {
+  width: 100%;
+  font-weight: 600;
+  color: #5d0cb0;
+  text-align: center;
+}
+.careers .careers-content .careers-process .process-steps {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.careers .careers-content .careers-process .process-steps .process-step {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.careers .careers-content .careers-process .process-steps .process-step:before {
+  background-color: #5d0cb0;
+  position: absolute;
+  top: 22px;
+  left: 8rem;
+  width: 80%;
+  height: 5px;
+  content: "";
+  z-index: -1;
+}
+.careers .careers-content .careers-process .process-steps .process-step .step {
+  background-color: #5d0cb0;
+  border: 2px solid #5d0cb0;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.careers .careers-content .careers-process .process-steps .process-step .step span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.careers .careers-content .careers-process .process-steps .process-step .process-title {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5d0cb0;
+  text-align: center;
+}
+.careers .careers-content .careers-process .process-steps .process-step .process-detail {
+  margin: 0;
+  color: #1e1e1e;
+  text-align: center;
+}
+.careers .careers-content .careers-opportunities {
+  padding: 0 0 4rem 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.careers .careers-content .careers-opportunities h3 {
+  font-weight: 600;
+  color: #5d0cb0;
+}
+.careers .careers-content .careers-opportunities .careers-header {
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers .careers-content .careers-opportunities .careers-header p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.careers .careers-content .careers-opportunities .careers-header select {
+  border: 2px solid #ababab;
+  outline: 0;
+  width: 200px;
+}
+.careers .careers-content .careers-opportunities .careers-header select:focus {
+  outline: 0;
+  border-color: #ababab;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.careers .careers-content .careers-opportunities .career-opportunities {
+  width: 100%;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity {
+  border-bottom: 1px solid #eeeeee;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.4s;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity .opportunity-details .opportunity-title {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #1e1e1e;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity .opportunity-details .opportunity-tags {
+  display: flex;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity .opportunity-details .opportunity-tags span {
+  margin-right: 0.5rem;
+  color: #1e1e1e;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity .opportunity-details .opportunity-tags span:last-child {
+  margin-right: 0;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity .opportunity-apply {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity:hover .opportunity-details .opportunity-title {
+  color: #5d0cb0;
+}
+.careers .careers-content .careers-opportunities .career-opportunities .opportunity:hover .opportunity-apply {
+  color: #5d0cb0;
+}
+
 /* Other Pages */
 .other-page-content {
   padding: 4rem 0;
