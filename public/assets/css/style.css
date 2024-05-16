@@ -473,6 +473,64 @@ footer .footer-container .footer-other .language-select:focus {
   width: 100%;
 }
 
+/* Other Pages */
+.other-page-content {
+  padding: 4rem 0;
+}
+.other-page-content .other-page-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.other-page-content .other-page-container h1 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #5d0cb0;
+  text-align: left;
+}
+.other-page-content .other-page-container h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #5d0cb0;
+  text-align: left;
+}
+.other-page-content .other-page-container p {
+  font-size: 1rem;
+  color: #1e1e1e;
+  text-align: left;
+}
+.other-page-content .other-page-container p a {
+  color: #5d0cb0;
+  text-decoration: underline;
+}
+.other-page-content .other-page-container > a {
+  background-color: #5d0cb0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+.other-page-content .other-page-container > a:hover {
+  background-color: #7214d2;
+}
+.other-page-content .other-page-container ul {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  list-style: disc;
+}
+.other-page-content .other-page-container ul li p {
+  margin-bottom: 0.25rem;
+}
+.other-page-content .other-page-container ul li::marker {
+  color: #5d0cb0;
+}
+
 @media only screen and (max-width: 575px) {
   .container {
     max-width: 92% !important;

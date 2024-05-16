@@ -1,5 +1,9 @@
 @extends('app')
 
+@section('title')
+    Pricing -  Planno
+@endsection
+
 @section('content')
 
     <section class="pricing">

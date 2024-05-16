@@ -489,6 +489,66 @@ footer {
     }
 }
 
+/* Other Pages */
+.other-page-content {
+    padding: 4rem 0;
+    .other-page-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        h1 {
+            margin-bottom: 1rem;
+            font-weight: 600;
+            font-size: 2rem;
+            color: $primary;
+            text-align: left;
+        }
+        h4 {
+            margin-bottom: 1rem;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: $primary;
+            text-align: left;
+        }
+        p {
+            font-size: 1rem;
+            color: $dark;
+            text-align: left;
+            a {
+                color: $primary;
+                text-decoration: underline;
+            }
+        }
+        > a {
+            background-color: $primary;
+            border-radius: .5rem;
+            padding: .5rem 1rem;
+            font-weight: 600;
+            font-size: 1rem;
+            color: $light;
+            text-align: center;
+            &:hover {
+                background-color: $secondary;
+            }
+        }
+        ul {
+            margin-bottom: 2rem;
+            padding: 0 1rem;
+            list-style: disc;
+            li {
+                p {
+                    margin-bottom: .25rem;
+                }
+                &::marker {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .container {
         max-width: 92% $i;
