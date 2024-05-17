@@ -13,6 +13,7 @@ $font : "Exo";
 $primary: #5d0cb0;
 $secondary: #7214d2;
 $tertiary: #00b3be;
+$four: #F1C307;
 $input: #dadada;
 $placeholder: #b2b2b2;
 $darkgray: #ababab;
@@ -38,6 +39,7 @@ body {
     font-family: $font;
     font-size: 100%;
     overflow-x: hidden;
+    color: $dark;
 }
 
 a {
@@ -48,6 +50,10 @@ ul, ol {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+img {
+    user-select: none;
 }
 
 input {
@@ -487,6 +493,126 @@ footer {
         hr {
             border-top: 1px solid $dark;
             width: 100%;
+        }
+    }
+}
+
+/* About Us Page */
+.about-us {
+    .about-us-banner {
+        padding: 3rem 0 .5rem 0 $i;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h1 {
+            font-weight: 600;
+            color: $primary;
+        }
+        img {
+            width: 450px;
+            height: 450px;
+        }
+    }
+    .about-us-values {
+        background-color: $primary;
+        .values-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $light;
+            text-align: center;
+            h1 {
+                margin-bottom: 1rem;
+                font-weight: 600;
+                font-size: 2rem;
+            }
+            p {
+                margin: 0;
+                width: 50%;
+            }
+        }
+        .values {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            .value {
+                width: 28%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $light;
+                .value-icon {
+                    width: 280px;
+                    height: 280px;
+                }
+                .value-details {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: $light;
+                    text-align: center;
+                    h3 {
+                        margin-bottom: 1rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    .about-us-how-we-work {
+        text-align: center;
+        h1 {
+            margin-bottom: 1rem;
+            font-weight: 600;
+            font-size: 2rem;
+            color: $primary;
+        }
+        p {
+            margin-bottom: 2rem;
+            width: 60%;
+        }
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .article {
+                border: 2px solid $gray;
+                border-radius: .5rem;
+                width: 24%;
+                display: flex;
+                flex-direction: column;
+                transition: .25s;
+                .article-detail {
+                    border-top: 2px solid $gray;
+                    padding: 1rem 1.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    h6 {
+                        margin-bottom: .75rem;
+                        font-weight: 600;
+                        color: $dark;
+                    }
+                    p {
+                        margin: 0;
+                        width: 100%;
+                        font-weight: 300;
+                        color: $dark;
+                    }
+                }
+                &:hover {
+                    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+                    -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+                    -o-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+                    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+                }
+            }
         }
     }
 }
