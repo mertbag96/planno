@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Careers - Planno
+    Careers | Planno
 @endsection
 
 @section('content')
@@ -20,13 +20,13 @@
 
                         <h1>Work with us</h1>
 
-                        <p class="mb-4">
+                        <p>
                             Explore remote-friendly, flexible opportunities and join our mission
                             to make work life simpler, more pleasant and more productive.
                         </p>
 
-                        <a href="#opportunities" class="mt-2">
-                            View Career Opportunities
+                        <a href="#opportunities">
+                            View Opportunities
                         </a>
 
                     </div>

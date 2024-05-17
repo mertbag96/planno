@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    For Teams -  Planno
+    For Teams | Planno
 @endsection
 
 @section('content')

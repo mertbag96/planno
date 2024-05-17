@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Security Policy - Planno
+    Security Policy | Planno
 @endsection
 
 @section('content')

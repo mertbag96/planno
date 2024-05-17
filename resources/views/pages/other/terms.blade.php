@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Terms of Service - Planno
+    Terms of Service | Planno
 @endsection
 
 @section('content')

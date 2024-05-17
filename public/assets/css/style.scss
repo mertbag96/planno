@@ -547,8 +547,8 @@ footer {
                 align-items: center;
                 color: $light;
                 .value-icon {
-                    width: 280px;
-                    height: 280px;
+                    width: 200px;
+                    height: 200px;
                 }
                 .value-details {
                     display: flex;
@@ -643,6 +643,7 @@ footer {
                         font-weight: 700;
                     }
                     p {
+                        margin-bottom: 1.5rem;
                         width: 80%;
                     }
                     a {
@@ -651,6 +652,7 @@ footer {
                         padding: .5rem 1rem;
                         font-weight: 600;
                         color: $primary;
+                        transition: .4s;
                         &:hover {
                             background-color: $gray;
                         }

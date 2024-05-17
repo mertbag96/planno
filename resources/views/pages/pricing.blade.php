@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Pricing -  Planno
+    Pricing | Planno
 @endsection
 
 @section('content')

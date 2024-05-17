@@ -530,8 +530,8 @@ footer .footer-container .footer-other .language-select:focus {
   color: #ffffff;
 }
 .about-us .about-us-values .values .value .value-icon {
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
 }
 .about-us .about-us-values .values .value .value-details {
   display: flex;
@@ -623,6 +623,7 @@ footer .footer-container .footer-other .language-select:focus {
   font-weight: 700;
 }
 .careers .careers-content .careers-banner .careers-banner-content div p {
+  margin-bottom: 1.5rem;
   width: 80%;
 }
 .careers .careers-content .careers-banner .careers-banner-content div a {
@@ -631,6 +632,7 @@ footer .footer-container .footer-other .language-select:focus {
   padding: 0.5rem 1rem;
   font-weight: 600;
   color: #5d0cb0;
+  transition: 0.4s;
 }
 .careers .careers-content .careers-banner .careers-banner-content div a:hover {
   background-color: #eeeeee;

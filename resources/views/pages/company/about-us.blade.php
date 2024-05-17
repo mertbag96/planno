@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    About us - Planno
+    About us | Planno
 @endsection
 
 @section('content')

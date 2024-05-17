@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Planno - Plan your day, save your time!
+    Planno | Plan your day, save your time!
 @endsection
 
 @section('content')

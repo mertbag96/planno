@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Help Center - Planno
+    Help Center | Planno
 @endsection
 
 @section('content')

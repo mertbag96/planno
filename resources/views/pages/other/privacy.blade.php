@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Privacy Policy - Planno
+    Privacy Policy | Planno
 @endsection
 
 @section('content')
