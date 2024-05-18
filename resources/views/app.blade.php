@@ -14,6 +14,8 @@
 
 <body class="container-fluid">
 
+@include('layout.cookie')
+
 @include('layout.header')
 
 @yield('content')
