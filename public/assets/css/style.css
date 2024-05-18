@@ -87,6 +87,7 @@ input[type=checkbox] {
   margin: 0 0 0.5rem 0.5rem;
   padding: 1rem;
   width: 28%;
+  display: none;
 }
 .cookie .cookie-content {
   display: flex;
@@ -620,7 +621,36 @@ footer .footer-container .footer-other .language-select:focus {
   text-align: left;
 }
 .pricing .pricing-content .popular {
+  background-color: #5d0cb0;
   border-color: #5d0cb0;
+}
+.pricing .pricing-content .popular .title {
+  color: #ffffff;
+}
+.pricing .pricing-content .popular .description {
+  color: #ffffff;
+}
+.pricing .pricing-content .popular .price {
+  color: #ffffff;
+}
+.pricing .pricing-content .popular .price .per {
+  color: #ffffff;
+}
+.pricing .pricing-content .popular a {
+  background-color: #ffffff;
+  color: #5d0cb0;
+}
+.pricing .pricing-content .popular a:hover {
+  background-color: #eeeeee;
+}
+.pricing .pricing-content .popular ul li .category {
+  color: #ffffff;
+}
+.pricing .pricing-content .popular ul li svg {
+  color: #ffffff;
+}
+.pricing .pricing-content .popular ul li p {
+  color: #ffffff;
 }
 .pricing .plans-table {
   margin-top: 4rem;
