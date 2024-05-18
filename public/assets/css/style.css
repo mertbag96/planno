@@ -179,6 +179,59 @@ header nav .menu .menu-button:hover {
   background-color: #7214d2;
 }
 
+.newsletter {
+  background-color: #5d0cb0;
+}
+.newsletter .newsletter-content {
+  padding: 2rem 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter .newsletter-content h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.newsletter .newsletter-content h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.newsletter .newsletter-content .newsletter-form {
+  width: 40%;
+}
+.newsletter .newsletter-content .newsletter-form form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.newsletter .newsletter-content .newsletter-form form input {
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding-right: 8rem;
+}
+.newsletter .newsletter-content .newsletter-form form button {
+  background-color: #5d0cb0;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  transition: 0.4s;
+}
+.newsletter .newsletter-content .newsletter-form form button:hover {
+  background-color: #7214d2;
+}
+
 footer {
   background-color: #eeeeee;
 }

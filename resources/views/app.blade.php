@@ -18,6 +18,8 @@
 
 @yield('content')
 
+@include('layout.newsletter')
+
 @include('layout.footer')
 
 </body>

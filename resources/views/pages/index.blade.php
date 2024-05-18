@@ -29,7 +29,7 @@
         <div class="partners-content container">
 
             <h3>
-                Our Partners
+                Our partners
             </h3>
 
             <p>

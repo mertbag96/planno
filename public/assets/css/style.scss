@@ -196,6 +196,59 @@ header {
     }
 }
 
+.newsletter {
+    background-color: $primary;
+    .newsletter-content {
+        padding: 2rem 0 $i;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: $light;
+        }
+        h6 {
+            font-size: 1rem;
+            font-weight: 500;
+            color: $light;
+        }
+        .newsletter-form {
+            width: 40%;
+            form {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                input {
+                    border-radius: .5rem;
+                    outline: none;
+                    border: none;
+                    padding-right: 8rem;
+                }
+                button {
+                    background-color: $primary;
+                    outline: none;
+                    border: none;
+                    border-radius: .5rem;
+                    position: absolute;
+                    top: .5rem;
+                    right: .5rem;
+                    padding: .5rem 1rem;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: $light;
+                    text-align: center;
+                    transition: .4s;
+                    &:hover {
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
 footer {
     background-color: $gray;
     .footer-container {
