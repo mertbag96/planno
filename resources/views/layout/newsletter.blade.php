@@ -12,13 +12,13 @@
 
         <div class="newsletter-form">
 
-            <form action="#" method="POST" class="position-relative" autocomplete="off">
+            <form action="#" method="POST" class="position-relative" autocomplete="off" novalidate>
 
                 @csrf
 
                 <label for="newsletter" class="d-none"></label>
 
-                <input type="email" name="newsletter" id="newsletter" placeholder="Please enter your email" required>
+                <input type="email" name="newsletter" id="newsletter" placeholder="Please enter your email">
 
                 <button type="submit">Subscribe</button>
 
