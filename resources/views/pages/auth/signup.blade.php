@@ -28,8 +28,6 @@
 
     <div class="authentication-container container">
 
-        <img src="{{ asset("assets/images/authentication/signup.png") }}" alt="Sign up">
-
         <div class="authentication-content">
 
             <h1>Sign up to Planno</h1>
@@ -108,6 +106,8 @@
             </form>
 
         </div>
+
+        <img src="{{ asset("assets/images/authentication/signup.png") }}" alt="Sign up">
 
     </div>
 
