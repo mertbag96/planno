@@ -472,6 +472,84 @@ footer {
     }
 }
 
+/* Authentication Pages */
+.authentication {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .logo-container {
+        height: 64px;
+        display: flex;
+        align-items: center;
+        .logo {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: $color1;
+        }
+    }
+    .log-in {
+        height: calc(100dvh - 64px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .log-in-content {
+            width: 35%;
+            h1 {
+                margin-bottom: 2rem;
+                font-size: 2rem;
+                font-weight: 600;
+                color: $color1;
+            }
+            form {
+                .form-item {
+                    width: 100%;
+                    label {
+                        margin: 0 0 .25rem .25rem;
+                        font-weight: 500;
+                        color: $dark;
+                    }
+                    input {
+                        width: 100%;
+                    }
+                    a {
+                        color: $color1;
+                        text-decoration: underline;
+                    }
+                    button {
+                        background: $color1;
+                        border-radius: .5rem;
+                        outline: none;
+                        border: none;
+                        padding: 1.25rem 1.5rem;
+                        width: 100%;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        color: $light;
+                        transition: .4s;
+                        &:hover {
+                            background-color: $color2;
+                        }
+                    }
+                    .disclaimer {
+                        font-size: 14px;
+                    }
+                    .forget-your-password {
+                        font-size: 14px;
+                        color: $dark;
+                    }
+                    .sign-up {
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* Home Page */
 .banner {
     background: url("../images/banner.png") bottom center no-repeat;
