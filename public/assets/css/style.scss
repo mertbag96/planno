@@ -1241,28 +1241,23 @@ footer {
         justify-content: center;
         align-items: center;
         form {
-            border: 2px solid $gray;
-            border-radius: .5rem;
             margin: 4rem 0;
-            padding: 4rem;
+            padding: 4rem 6rem;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: start;
-            width: 75%;
             h1 {
                 margin-bottom: 1rem;
                 font-size: 2rem;
                 font-weight: 600;
                 color: $color1;
-                text-align: center;
             }
             h6 {
                 margin-bottom: 2.5rem;
                 font-size: 1rem;
                 font-weight: 500;
                 color: $dark;
-                text-align: center;
             }
             .form-element {
                 width: 48%;

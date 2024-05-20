@@ -290,7 +290,9 @@
 
         <div class="contact-us-form container">
 
-            <form action="#" method="POST" class="shadow" autocomplete="off">
+            <img src="{{ asset("assets/images/contact-us/form.png") }}" alt="Contact form">
+
+            <form action="#" method="POST" class="" autocomplete="off" novalidate>
 
                 <h1 class="w-100">Contact us!</h1>
 
@@ -300,23 +302,31 @@
 
                 <div class="form-element mb-4">
 
-                    <label for="name">Name*</label>
+                    <label for="first-name">First name</label>
 
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="first_name" id="first-name">
 
                 </div>
 
                 <div class="form-element mb-4">
 
-                    <label for="email">Email*</label>
+                    <label for="last-name">Last name</label>
+
+                    <input type="text" name="last_name" id="last-name">
+
+                </div>
+
+                <div class="form-element mb-4">
+
+                    <label for="email">Email</label>
 
                     <input type="email" name="email" id="email" required>
 
                 </div>
 
-                <div class="form-element mb-4 w-100">
+                <div class="form-element mb-4">
 
-                    <label for="topic">Topic*</label>
+                    <label for="topic">Topic</label>
 
                     <input type="text" name="topic" id="topic" required>
 
@@ -324,7 +334,7 @@
 
                 <div class="form-element mb-4 w-100">
 
-                    <label for="message">Message*</label>
+                    <label for="message">Message</label>
 
                     <textarea name="message" id="message" class="w-100" rows="6"></textarea>
 

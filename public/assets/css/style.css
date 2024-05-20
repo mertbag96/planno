@@ -1192,29 +1192,24 @@ footer .footer-container .footer-other .language-select:focus {
   align-items: center;
 }
 .contact-us .contact-us-form form {
-  border: 2px solid #eeeeee;
-  border-radius: 0.5rem;
   margin: 4rem 0;
-  padding: 4rem;
+  padding: 4rem 6rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: start;
-  width: 75%;
 }
 .contact-us .contact-us-form form h1 {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 600;
   color: #5d0cb0;
-  text-align: center;
 }
 .contact-us .contact-us-form form h6 {
   margin-bottom: 2.5rem;
   font-size: 1rem;
   font-weight: 500;
   color: #1e1e1e;
-  text-align: center;
 }
 .contact-us .contact-us-form form .form-element {
   width: 48%;
