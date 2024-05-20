@@ -1,94 +1,55 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Can't you log in to your account? Do you need to reset your password?</title>
-    <link rel="apple-touch-icon" href="{{ asset('assets/images/icons/favicon.png') }}">
-    <link rel="shortcut icon" href="{{ asset('assets/images/icons/favicon.png') }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-</head>
+@extends("pages.auth.layout")
 
-<body class="container-fluid">
+@section("title")
+    Can't you log in to your account? Do you need to reset your password?
+@endsection
 
-@include('layout.cookie')
+@section("content")
 
-<section class="authentication">
+    <h1 class="mb-2">Forgot your password?</h1>
 
-    <div class="logo-container container">
+    <h6 class="mb-4">
+        To reset your password, please enter your Planno account's email.
+    </h6>
 
-        <a href="{{ route('index') }}" class="logo d-flex align-items-center">
-            <i class="fa-solid fa-parking fs-3 me-2"></i>
-            <span>Planno</span>
-        </a>
+    <form action="#" method="POST" autocomplete="off" novalidate>
 
-    </div>
+        @csrf
 
-    <div class="authentication-container container">
+        <div class="form-item mb-4">
 
-        <div class="authentication-content">
+            <label for="email">Email</label>
 
-            <h1 class="mb-2">Forgot your password?</h1>
-
-            <h6 class="mb-4">
-                To reset your password, please enter your Planno account's email.
-            </h6>
-
-            <form action="#" method="POST" autocomplete="off">
-
-                @csrf
-
-                <div class="form-item mb-4">
-
-                    <label for="email">Email</label>
-
-                    <input type="email" name="email" id="email" required>
-
-                </div>
-
-                <div class="form-item mb-4">
-
-                    <button type="submit">Reset password</button>
-
-                </div>
-
-                <div class="form-item">
-
-                    <div class="sign-up">
-
-                        Do you remember your password?
-
-                        <a href="{{ route("auth.login") }}">
-                            Log in
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </form>
+            <input type="email" name="email" id="email">
 
         </div>
 
-        <img src="{{ asset("assets/images/authentication/reset-password.png") }}" alt="Reset password">
+        <div class="form-item mb-4">
 
-    </div>
+            <button type="submit">Reset password</button>
 
-</section>
+        </div>
 
-</body>
+        <div class="form-item">
 
-<script src="{{ asset('assets/plugins/jQuery/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('assets/js/main.js') }}"></script>
+            <div class="sign-up">
 
-</html>
+                Do you remember your password?
 
+                <a href="{{ route("auth.login") }}">
+                    Log in
+                </a>
 
+            </div>
 
+        </div>
 
+    </form>
 
+@endsection
 
+@section("image")
 
+    <img src="{{ asset("assets/images/authentication/reset-password.png") }}" alt="Reset password">
+
+@endsection
