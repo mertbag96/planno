@@ -489,13 +489,13 @@ footer {
             color: $color1;
         }
     }
-    .log-in {
+    .authentication-container {
         height: calc(100dvh - 64px);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        .log-in-content {
+        .authentication-content {
             width: 35%;
             h1 {
                 margin-bottom: 2rem;

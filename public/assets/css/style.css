@@ -463,38 +463,38 @@ footer .footer-container .footer-other .language-select:focus {
   font-size: 1.5rem;
   color: #5d0cb0;
 }
-.authentication .log-in {
+.authentication .authentication-container {
   height: calc(100dvh - 64px);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-.authentication .log-in .log-in-content {
+.authentication .authentication-container .authentication-content {
   width: 35%;
 }
-.authentication .log-in .log-in-content h1 {
+.authentication .authentication-container .authentication-content h1 {
   margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 600;
   color: #5d0cb0;
 }
-.authentication .log-in .log-in-content form .form-item {
+.authentication .authentication-container .authentication-content form .form-item {
   width: 100%;
 }
-.authentication .log-in .log-in-content form .form-item label {
+.authentication .authentication-container .authentication-content form .form-item label {
   margin: 0 0 0.25rem 0.25rem;
   font-weight: 500;
   color: #1e1e1e;
 }
-.authentication .log-in .log-in-content form .form-item input {
+.authentication .authentication-container .authentication-content form .form-item input {
   width: 100%;
 }
-.authentication .log-in .log-in-content form .form-item a {
+.authentication .authentication-container .authentication-content form .form-item a {
   color: #5d0cb0;
   text-decoration: underline;
 }
-.authentication .log-in .log-in-content form .form-item button {
+.authentication .authentication-container .authentication-content form .form-item button {
   background: #5d0cb0;
   border-radius: 0.5rem;
   outline: none;
@@ -506,17 +506,17 @@ footer .footer-container .footer-other .language-select:focus {
   color: #ffffff;
   transition: 0.4s;
 }
-.authentication .log-in .log-in-content form .form-item button:hover {
+.authentication .authentication-container .authentication-content form .form-item button:hover {
   background-color: #7214d2;
 }
-.authentication .log-in .log-in-content form .form-item .disclaimer {
+.authentication .authentication-container .authentication-content form .form-item .disclaimer {
   font-size: 14px;
 }
-.authentication .log-in .log-in-content form .form-item .forget-your-password {
+.authentication .authentication-container .authentication-content form .form-item .forget-your-password {
   font-size: 14px;
   color: #1e1e1e;
 }
-.authentication .log-in .log-in-content form .form-item .sign-up {
+.authentication .authentication-container .authentication-content form .form-item .sign-up {
   font-size: 14px;
   text-align: center;
 }

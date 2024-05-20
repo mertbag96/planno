@@ -26,9 +26,9 @@
 
     </div>
 
-    <div class="log-in container">
+    <div class="authentication-container container">
 
-        <div class="log-in-content">
+        <div class="authentication-content">
 
             <h1>Log in to Planno</h1>
 
