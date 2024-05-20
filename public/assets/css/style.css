@@ -128,7 +128,6 @@ input[type=checkbox] {
   box-shadow: 0 0 1px #5d0cb0;
 }
 .cookie .cookie-content .cookie-consent .cookie-settings .cookie-setting .switch input:checked + .slider:before {
-  -webkit-transform: translateX(16px);
   -ms-transform: translateX(16px);
   transform: translateX(16px);
 }
@@ -139,7 +138,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #cccccc;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -150,7 +149,7 @@ input[type=checkbox] {
   width: 15px;
   left: 4px;
   bottom: 3px;
-  background-color: white;
+  background-color: #ffffff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -196,7 +195,7 @@ input[type=checkbox] {
 }
 
 header {
-  background-color: white;
+  background-color: #ffffff;
   padding: 0.75rem 0;
   display: flex;
   justify-content: center;
@@ -288,7 +287,7 @@ header nav .menu .menu-dropdown:hover {
 }
 header nav .menu .menu-button {
   background-color: #5d0cb0;
-  color: white;
+  color: #ffffff;
 }
 header nav .menu .menu-button:hover {
   background-color: #7214d2;
@@ -477,7 +476,7 @@ footer .footer-container .footer-other .language-select:focus {
   margin-top: 1rem;
   font-weight: 600;
   font-size: 1.25rem;
-  color: white;
+  color: #ffffff;
 }
 .banner .banner-content .banner-button:hover {
   background-color: #7214d2;
