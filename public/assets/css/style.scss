@@ -405,6 +405,9 @@ footer {
                     margin-left: 6rem;
                     display: flex;
                     flex-direction: column;
+                    &:first-child {
+                        margin-left: 0 $i;
+                    }
                     p {
                         margin-bottom: 1.25rem;
                         padding: .5rem;
@@ -1354,12 +1357,40 @@ footer {
 }
 
 /* Responsive */
+
+@media only screen and (max-width: 1399px) {
+    /* Layout */
+    footer {
+        .footer-container {
+            .footer-content {
+                ul {
+                    li {
+                        margin-left: 5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1199px) {
     /* Layout */
     .newsletter {
         .newsletter-content {
             .newsletter-form {
                 width: 50%;
+            }
+        }
+    }
+
+    footer {
+        .footer-container {
+            .footer-content {
+                ul {
+                    li {
+                        margin-left: 2rem;
+                    }
+                }
             }
         }
     }
@@ -1388,6 +1419,30 @@ footer {
             .newsletter-form {
                 margin-top: .5rem;
                 width: 75%;
+            }
+        }
+    }
+
+    footer {
+        .footer-container {
+            .footer-logo {
+                p {
+                    width: 100%;
+                }
+            }
+            .footer-content {
+                margin: 1.5rem 0 1rem 0;
+                width: calc(100% + .5rem);
+                ul {
+                    margin-left: -.5rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: start;
+                    li {
+                        margin-left: 0;
+                    }
+                }
             }
         }
     }
@@ -1428,4 +1483,46 @@ footer {
     .container {
         max-width: 92% $i;
     }
+
+    /* Layout */
+    footer {
+        .footer-container {
+            .footer-content {
+                ul {
+                    li {
+                        &:last-child {
+                            margin: 1.5rem 0 .5rem 0;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            a {
+                                margin-left: 1rem;
+                                &:first-child {
+                                    margin-left: 0 $i;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+@media only screen and (max-width: 374px) {
+    /* Layout */
+    footer {
+        .footer-container {
+            .footer-content {
+                ul {
+                    li {
+                        &:first-child {
+                            margin-right: 1rem $i;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
