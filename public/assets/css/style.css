@@ -1300,7 +1300,30 @@ footer .footer-container .footer-other .language-select:focus {
   color: #5d0cb0;
 }
 
+/* Responsive */
+@media only screen and (max-width: 1199px) {
+  /* Other Pages */
+  .other-page-content .other-page-container {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* Other Pages */
+  .other-page-content .other-page-container h1 {
+    font-size: 1.5rem;
+  }
+  .other-page-content .other-page-container h4 {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* Other Pages */
+  .other-page-content .other-page-container {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 575px) {
+  /* Bootstrap */
   .container {
     max-width: 92% !important;
   }

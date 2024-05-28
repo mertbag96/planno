@@ -100,7 +100,9 @@
                     do our best to fix it right away.
                 </p>
 
-                <a href="#">Submit a Vulnerability</a>
+                <a href="{{ route("contact-us") }}#contact-us">
+                    Submit a Vulnerability
+                </a>
 
             </div>
 
